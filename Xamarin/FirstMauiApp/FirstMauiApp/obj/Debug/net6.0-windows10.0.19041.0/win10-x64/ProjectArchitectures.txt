@@ -1,0 +1,1 @@
+C:\Users\manue\Documents\LearningStuff\Learning\Xamarin\FirstMauiApp\FirstMauiApp\FirstMauiApp.csproj;x64
