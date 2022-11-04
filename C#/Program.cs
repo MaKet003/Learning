@@ -1,18 +1,14 @@
-﻿namespace HelloWorld
+﻿using ExtensionMethods;
+
+namespace HelloWorld
 {
     class Program
     {
         static void Main(string[] args)
         {
-            void Ausgabe() => Ausgabe2();
-        }
-
-        public void Ausgabe(){
-         Console.WriteLine("Hello WOrld"); 
-        }
-
-        public void Ausgabe2(){
-         Console.WriteLine("Hello WOrl2222d"); 
+            string s = "Hello Extension Methods";
+            int i = s.WordCount();
+            Console.WriteLine("{0}", i);
         }
     }
 }
