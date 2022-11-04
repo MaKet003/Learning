@@ -33,7 +33,20 @@ public partial class MainPage : ContentPage
 			"Yes",
 			"No"))
 		{
-			// ToDo: dial the phone
+			try
+			{
+				if (PhoneDialer.Default.IsSupported)
+					PhoneDialer.Default.Open(translatedNumber);
+			}
+			catch (ArgumentNullException)
+			{
+				await DisplayAlert("Unable to dial", "Phone number was not valid.", "OK");
+			}
+			catch (Exception)
+			{
+				//Other error has occurred
+				await DisplayAlert("Unable to dial", "Phone dialing failed.", "OK");
+			}
 		}
 	}
 }
