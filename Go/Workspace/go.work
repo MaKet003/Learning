@@ -1,0 +1,8 @@
+go 1.19
+
+use (
+	./WebExamples/1HelloWorld/
+	./WebExamples/2HTTPServer
+	./WebExamples/3gorillaAndMux
+	./WebExamples/4MySQLDatabase
+)
