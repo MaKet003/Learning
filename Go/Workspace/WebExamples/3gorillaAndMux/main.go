@@ -17,6 +17,7 @@ func main() {
 			title := vars["title"]
 			//navigate to the page
 			page := vars["page"]
+
 			fmt.Fprintf(w,
 				"You have requested the book with the name %s on the page %s",
 				title, page)
