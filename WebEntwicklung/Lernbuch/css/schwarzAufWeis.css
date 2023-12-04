@@ -1,0 +1,17 @@
+.schwarzeSchriftWeiserHintergrund{
+   color: black;
+   background-color: white;
+}
+
+.weiseSchriftSchwarzerHintergrund{
+   color: white;
+   background-color: black;
+}
+
+body{
+   background-color: #001eff;
+   background-repeat: repeat-y;
+   background-position: right top;
+}
+
+

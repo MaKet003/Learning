@@ -1,0 +1,11 @@
+p {
+   color: blue;
+}
+
+#zweiterAbsatz, #dritterAbsatz{
+   background-color: grey;
+}
+
+#dritterAbsatz{
+   color: red;
+}

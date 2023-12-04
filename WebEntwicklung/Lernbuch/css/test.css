@@ -1,0 +1,30 @@
+#zweiterAbsatz{
+   color: red;
+}
+
+.arbeit{
+   color: grey;
+}
+
+.liebe{
+   color: orange;
+}
+
+.hobby{
+   color: blue;
+}
+
+.beruf{
+   color: red;
+}
+
+.nacht{
+   background-color: black;
+}
+
+body{
+   background-image: url(../pictures/kürbis.jpg);
+   background-size: 50%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}

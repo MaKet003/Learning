@@ -1,0 +1,29 @@
+body{
+   color: white;
+}
+
+p {
+   color: purple;
+}
+
+#ersterSpan{
+   background-color: red;
+   color: white;
+}
+
+#zweiterSpan{
+   background-color: green;
+}
+
+#dritterSpan{
+   background-color: black;
+}
+
+
+div span{
+   color: blue;
+}
+
+div > span{
+   color: red;
+}
